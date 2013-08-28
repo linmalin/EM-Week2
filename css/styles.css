@@ -1,0 +1,101 @@
+@import 'normalize.css';
+@import 'font-awesome.min.css';
+/* adding box sizing to everything*/
+
+*, *:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box:;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+/*wrapper to keep everything tidy*/
+.wrapper{
+	width:90%;
+	max-width: 960px;
+	background-color:;
+	margin-left: auto;
+	margin-right: auto;
+	/*margin:0 auto; shorthand*/
+}
+.banner{
+	width:100%;
+	background-color: #fff;
+	padding:10px;
+	margin-bottom: 20px;
+}
+.banner img{
+	width:100%;
+}
+.posts{
+	width: 100%;
+	/*background-color: #122fd3;*/
+}
+.post{
+	width: 48%;
+	background-color:#fff;
+	padding: 5px 15px;
+	float: left;
+	margin-right: 2%;
+	margin-top: 5px;
+	/*-webkit-border-radius: 15px;*/
+}
+/* Fix the even post to move over correctly*/
+/*.posit:nth-child(even){
+	margin-right: -2%;
+	margin-left: 2%;
+}*/
+.post img{
+	width:100%;
+}
+.post h1{
+	word-wrap:break-word;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
